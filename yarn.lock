@@ -4056,12 +4056,13 @@ electron-chromedriver@~3.0.0:
     electron-download "^4.1.0"
     extract-zip "^1.6.5"
 
-electron-debug@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/electron-debug/-/electron-debug-2.0.0.tgz#3059a6557acbfb091f138d83875f57bac80cea6d"
+electron-debug@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/electron-debug/-/electron-debug-2.2.0.tgz#408672aaf17436818287409c48ab2451e6e76394"
+  integrity sha512-bjZ+4wLzV0jvYRUv+cpESJIv8wB3v5u2WIIy5gMQMqzWlBI6ck1OQJ4goQXgJYHLpuIbu6ddswzv1LSHZ8Ho3A==
   dependencies:
     electron-is-dev "^0.3.0"
-    electron-localshortcut "^3.0.0"
+    electron-localshortcut "^3.1.0"
 
 electron-devtools-installer@^2.2.4:
   version "2.2.4"
@@ -4094,13 +4095,14 @@ electron-is-dev@^0.3.0:
   version "0.3.0"
   resolved "https://registry.npmjs.org/electron-is-dev/-/electron-is-dev-0.3.0.tgz#14e6fda5c68e9e4ecbeff9ccf037cbd7c05c5afe"
 
-electron-localshortcut@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/electron-localshortcut/-/electron-localshortcut-3.1.0.tgz#10c1ffd537b8d39170aaf6e1551341f7780dd2ce"
+electron-localshortcut@^3.1.0:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/electron-localshortcut/-/electron-localshortcut-3.2.1.tgz#cfc83a3eff5e28faf98ddcc87f80a2ce4f623cd3"
+  integrity sha512-DWvhKv36GsdXKnaFFhEiK8kZZA+24/yFLgtTwJJHc7AFgDjNRIBJZ/jq62Y/dWv9E4ypYwrVWN2bVrCYw1uv7Q==
   dependencies:
-    debug "^2.6.8"
+    debug "^4.0.1"
     electron-is-accelerator "^0.1.0"
-    keyboardevent-from-electron-accelerator "^1.1.0"
+    keyboardevent-from-electron-accelerator "^2.0.0"
     keyboardevents-areequal "^0.2.1"
 
 electron-log@^2.2.17:
@@ -6917,9 +6919,10 @@ just-extend@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/just-extend/-/just-extend-3.0.0.tgz#cee004031eaabf6406da03a7b84e4fe9d78ef288"
 
-keyboardevent-from-electron-accelerator@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/keyboardevent-from-electron-accelerator/-/keyboardevent-from-electron-accelerator-1.1.0.tgz#324614f6e33490c37ffc5be5876b3e85fe223c84"
+keyboardevent-from-electron-accelerator@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/keyboardevent-from-electron-accelerator/-/keyboardevent-from-electron-accelerator-2.0.0.tgz#ace21b1aa4e47148815d160057f9edb66567c50c"
+  integrity sha512-iQcmNA0M4ETMNi0kG/q0h/43wZk7rMeKYrXP7sqKIJbHkTU8Koowgzv+ieR/vWJbOwxx5nDC3UnudZ0aLSu4VA==
 
 keyboardevents-areequal@^0.2.1:
   version "0.2.2"
@@ -7069,7 +7072,7 @@ listr-update-renderer@^0.4.0:
     figures "^1.7.0"
     indent-string "^3.0.0"
     log-symbols "^1.0.2"
-    log-update "^2.3.0"
+    log-update "^1.0.2"
     strip-ansi "^3.0.1"
 
 listr-verbose-renderer@^0.4.0:
